@@ -5,30 +5,39 @@ body {
   position: absolute;
   top: 50px;
   width: 100%;
-  height: 300px;
+  height: 100vh;
   background-color: rgb(237, 178, 178);
 }
 
 #welcome-section h1 {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   text-align: center;
 }
 
 #projects-section {
   position: absolute;
-  top: 350px;
+  top: 100vh;
   width: 100%;
-  height: 500px;
+  height: 100vh;
   background-color: rgb(178, 237, 191);
 }
 
 #contact-section {
   position: absolute;
   width: 100%;
-  top: 850px;
-  height: 500px;
+  top: 200vh;
+  height: 100vh;
   background-color: rgb(74, 178, 74);
 }
+
+#contact-section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+  }
 
 #nav-ul {
   text-align: center;
