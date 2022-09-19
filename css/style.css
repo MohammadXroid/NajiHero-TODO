@@ -1,0 +1,40 @@
+#welcome-section {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(237, 178, 178);
+  }
+  
+  #welcome-section h1 {
+    position: relative;
+    text-align: center;
+  }
+  
+  #projects-section {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(178, 237, 191);
+  }
+  
+  #contact-section {
+    position: absolute;
+    width: 100%;
+    top: 800px;
+    height: 500px;
+    background-color: rgb(74, 178, 74);
+  }
+  
+  #nav-ul {
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  #nav-li {
+    margin-left: 30px;
+    display: inline;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
