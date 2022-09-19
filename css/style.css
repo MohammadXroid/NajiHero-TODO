@@ -37,4 +37,10 @@
     font-weight: 500;
     cursor: pointer;
   }
+
+  #projects-section .project-title {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+  }
   
